@@ -8,31 +8,57 @@
     <!--link framework bootstrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <!--link fontawesome-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--link mio css-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--responsive-->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
     <header>
         <div class="header-top">
-            <div class="container-sm">
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <div><a href="#">START BOOTSTRAP</a></div>
+            <div class="container-sm container-md container-lg">
+                <nav>
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div>
+                                <h4>START BOOTSTRAP</h4>
+                            </div>
+                        </div>
+                        <div class="col-1 col-md-2 hmg">
+                            <div class="hmg-menu"><i class="fa-solid fa-bars"></i></div>
+                        </div>
+                        <div class="col-1 col-md-2 link_nav">
+                            <div class="link-nav-cont"><a href="#">PORTFOLIO</a></div>
+                        </div>
+                        <div class="col-1 col-md-2 link_nav">
+                            <div class="link-nav-cont"><a href="#">ABOUT</a></div>
+                        </div>
+                        <div class="col-1 col-md-2 link_nav">
+                            <div class="link-nav-cont"><a href="#">CONTACT</a></div>
+                        </div>
                     </div>
-                    <div class="col-1">
-                        <div><a href="#"></a>HAMBURGER</div>
-                    </div>
-                </div>
+
+                </nav>
             </div>
         </div>
         <div class="header-bottom">
-            <div class="container-sm">
-                <div><img src="./img/avatar.svg" alt="avatar"></div>
-                <h1>START BOOTSTRAP</h1>
-                <div class="row">
+            <div class="container-sm container-md container-lg">
+
+
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-4">
+                        <div>
+                            <img src="./img/avatar.svg" alt="avatar">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <h1>START BOOTSTRAP</h1>
+                    </div>
                     <div class="col-3">
                         <hr>
                     </div>
@@ -42,26 +68,238 @@
                         <hr>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-10">
-                        <div class="row justify-content-between">
-                            <div class="col-3">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col">
                                 GRAPHIC ARTIST
                             </div>
                             <div class="col-1">-</div>
-                            <div class="col-3">
+                            <div class="col">
                                 WEB DESIGNER
                             </div>
                             <div class="col-1">-</div>
-                            <div class="col-3">
+                            <div class="col">
                                 ILLUSTRATOR
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
         </div>
     </header>
+    <main>
+        <div class="container-sm container-md container-lg">
+            <section class="portfolio">
+                <div class="row justify-content-center">
+                    <div class="col-3 col-md-6">
+                        <h2>PORTFOLIO</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3 col-md-2">
+                        <hr>
+                    </div>
+                    <div class="col-1"><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="col-3 col-md-2">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <div class="img-cont">
+                            <img src="./img/cabin.png" class="rounded-3" alt="">
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-cont"><img src="./img/cake.png" class="rounded-3" alt=""></div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-cont"><img src="./img/circus.png" class="rounded-3" alt=""></div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-cont"><img src="./img/game.png" class="rounded-3" alt=""></div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-cont"><img src="./img/safe.png" class="rounded-3" alt=""></div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-cont"><img src="./img/submarine.png" class="rounded-3" alt=""></div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+        </div>
+        <section class="about">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-2">
+                        <h2>ABOUT</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-1">
+                        <hr>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="col-1">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-md-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed amet recusandae soluta rerum
+                            adipisci officiis animi quaerat iure beatae laudantium voluptate ratione cupiditate quo
+                            saepe laborum earum quia voluptatem in, cum tempore quis enim obcaecati! Obcaecati maxime
+                            sequi reiciendis, culpa quisquam placeat cupiditate eum rerum eius neque quam accusamus
+                            exercitationem.</p>
+                        
+                    </div>
+                    <div class="col-8 col-md-4">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis provident eveniet aliquam
+                            labore! Veniam nisi reprehenderit optio recusandae accusantium similique sunt qui porro
+                            laboriosam expedita accusamus harum magni exercitationem quaerat, tempora sit maxime
+                            incidunt magnam perferendis. Maxime, commodi in, placeat consequuntur veritatis dolorum
+                            porro vero sit nulla aperiam harum voluptatem.</p>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <div class="dwn-button"><button class="btn btn-outline-light"><span>
+                                    <i class="fa-solid fa-download"></i></span>Download</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactme">
+            <div class="container-fluid container-md container-lg">
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <h2>CONTACT ME</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-1">
+                        <hr>
+                    </div>
+                    <div class="col-1"><i class="fa-solid fa-star"></i></div>
+                    <div class="col-1">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        Name
+                    </div>
+                    <div class="col-8">
+                        <hr>
+                    </div>
+                    <div class="col-8">
+                        Email Address
+                    </div>
+                    <div class="col-8">
+                        <hr>
+                    </div>
+                    <div class="col-8">
+                        Phone Number
+                    </div>
+                    <div class="col-8">
+                        <hr>
+                    </div>
+                    <div class="col-8">
+                        Message
+                    </div>
+                    <div class="col-8">
+                        <hr>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <div><button class="btn btn-success">Send</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <div class="container-fluid container-md container-lg">
+                    <div class="row py-3 justify-content-center">
+                        <div class="col-2">
+                            <h3>LOCATION</h3>
+                        </div>
+                        <div class="col-12">
+                            <div class="row_center">
+                                <p>2215 John Daniel Drive Clark, MO 54243</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+    
+                    <div class="row py-5 justify-content-center">
+                        <div class="col-6">
+                            <h3>AROUND THE WEB</h3>
+                            <div class="row justify-content-center">
+                                <div class="col-2">
+                                    <div><button class="btn btn-outline-light rounded-circle"><i
+                                                class="fa-brands fa-facebook"></i></button></div>
+                                </div>
+                                <div class="col-2">
+                                    <div><button class="btn btn-outline-light rounded-circle"><i
+                                                class="fa-brands fa-google-plus-g"></i></button></div>
+                                </div>
+                                <div class="col-2">
+                                    <div><button class="btn btn-outline-light rounded-circle"><i
+                                                class="fa-brands fa-twitter"></i></button></div>
+                                </div>
+                                <div class="col-2">
+                                    <div><button class="btn btn-outline-light rounded-circle"><i
+                                                class="fa-brands fa-linkedin"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+                    <div class="row py-5 justify-content-center">
+                        <div class="col-6">
+                            <h3>ABOUT FREELANCER</h3>
+    
+                        </div>
+                        <div class="col-10">
+                            <div class="row_center">
+                                <p>Freelance is a free to use, open source Bootstrap
+                                    theme created by <a href="#">Start Bootstrap</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-6 offset-3">
+                        <div class="row_center">
+                            <p>Copyright <span><i class="fa-solid fa-copyright"></i></span> your website 2019</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>

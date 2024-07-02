@@ -3,7 +3,71 @@ GENERAL
 */
 .header-top{
     background-color:#2C3E50;
+    min-height: 100px;
+}
+.hmg-menu{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    
 }
 .header-bottom{
+    background-color:#1ABC9C;
+    color: white;
+    padding-bottom: 30px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio{
+    padding-bottom: 50px;
+}
+.img-cont{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.contactme{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about{
     background-color:#1ABC9C ;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    color: white;
+}
+.row_center{
+    text-align: center;
+}
+.fa-solid{
+    padding-left: 10px;
+}
+.footer-top{
+    background-color: #3A546D;
+    padding-top: 30px;
+    color: white;
+}
+.footer-bottom{
+    color: white;
+    background-color: #2C3E50;
+    min-height: 100px;
+    padding-top: 30px;
+}
+.as-center{
+    align-self: center;
 }

@@ -1,0 +1,14 @@
+@media screen and (min-width:576px) {
+    .link_nav{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) {
+    .hmg{
+        display: none;
+    }
+    .link_nav{
+        display: block;
+        text-align: center;
+    }
+}
