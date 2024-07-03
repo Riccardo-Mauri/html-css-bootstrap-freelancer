@@ -24,7 +24,7 @@
             <div class="container-sm ">
                 <nav class="navbar navbar-expand-md" data-bs-theme="dark">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                        <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -33,13 +33,13 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link text-uppercase" href="#">Portfolio</a>
+                                    <a class="nav-link text-uppercase text-white" href="#">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-uppercase" href="#">about</a>
+                                    <a class="nav-link text-uppercase text-white" href="#">about</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-uppercase" href="#">contact</a>
+                                    <a class="nav-link text-uppercase text-white" href="#">contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -202,29 +202,28 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <form action="">
+                        <form action="./validation.html">
                             <div class="input-group mb-3">
-
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Name"
-                                    aria-describedby="basic-addon1">
+                                <label for="Usernamevalidation"></label>
+                                <input type="text" class="form-control" placeholder="Name" aria-label="text"
+                                    aria-describedby="basic-addon1" id="Usernamevalidation">
                             </div>
                             <div class="input-group mb-3">
 
-                                <input type="text" class="form-control" placeholder="Email Address"
-                                    aria-label="Eamil Address" aria-describedby="basic-addon1">
+                                <input type="email" class="form-control" placeholder="Email Address"
+                                    aria-label="email" aria-describedby="basic-addon1">
                             </div>
                             <div class="input-group mb-3">
 
-                                <input type="text" class="form-control" placeholder="Phone Number"
-                                    aria-label="Phone Number" aria-describedby="basic-addon1">
+                                <input type="tel" class="form-control" placeholder="Phone Number"
+                                    aria-label="tel" maxlength="UTF-8" aria-describedby="basic-addon1">
                             </div>
                             <div class="input-group mb-3">
 
-                                <input type="text" class="form-control" placeholder="Message" aria-label="Message"
-                                    aria-describedby="basic-addon1">
+                                <textarea class="form-control" placeholder="Message" aria-label="With textarea"></textarea>
                             </div>
                             <div>
-                                <input type="submit" value="Send">
+                                <button class="btn btn-success" type="submit">Send</button>
                             </div>
                         </form>
                     </div>
