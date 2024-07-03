@@ -3,7 +3,7 @@ GENERAL
 */
 .header-top{
     background-color:#2C3E50;
-    min-height: 100px;
+    min-height: 50px;
 }
 .hmg-menu{
     border: 1px solid black;
@@ -58,15 +58,20 @@ h4{
     padding-left: 10px;
 }
 .footer-top{
-    background-color: #3A546D;
     padding-top: 30px;
     color: white;
 }
+.bkg-color-primary{
+    background-color: #3A546D;
+    
+}
 .footer-bottom{
     color: white;
-    background-color: #2C3E50;
     min-height: 100px;
     padding-top: 30px;
+}
+.bkg-color-secondary{
+    background-color: #2C3E50;
 }
 .as-center{
     align-self: center;

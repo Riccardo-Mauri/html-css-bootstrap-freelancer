@@ -20,30 +20,25 @@
 
 <body>
     <header>
-        <div class="header-top">
-            <div class="container-sm container-md container-lg">
-                <nav>
-                    <div class="row justify-content-between">
-                        <div class="col-5">
-                            <div>
-                                <h4>START BOOTSTRAP</h4>
-                            </div>
-                        </div>
-                        <div class="col-1 col-md-2 hmg">
-                            <div class="hmg-menu"><i class="fa-solid fa-bars"></i></div>
-                        </div>
-                        <div class="col-1 col-md-2 link_nav">
-                            <div class="link-nav-cont"><a href="#">PORTFOLIO</a></div>
-                        </div>
-                        <div class="col-1 col-md-2 link_nav">
-                            <div class="link-nav-cont"><a href="#">ABOUT</a></div>
-                        </div>
-                        <div class="col-1 col-md-2 link_nav">
-                            <div class="link-nav-cont"><a href="#">CONTACT</a></div>
+        <div class="header-top py-3">
+            <div class="container-sm ">
+
+                <div class="row">
+                    <div class="col bg-success">
+                        <div>
+                            <h4>START BOOTSTRAP</h4>
                         </div>
                     </div>
+                    <div class="col text-end bg-info">
+                        <span class="d-md-none">
+                            HAMBURGER
+                        </span>
+                        <span class="d-none d-md-inline-block">
+                            NAV MENU
+                        </span>
+                    </div>
 
-                </nav>
+                </div>
             </div>
         </div>
         <div class="header-bottom">
@@ -89,7 +84,7 @@
         </div>
     </header>
     <main>
-        <div class="container-sm container-md container-lg">
+        <div class="container-sm">
             <section class="portfolio">
                 <div class="row justify-content-center">
                     <div class="col-3 col-md-6">
@@ -107,25 +102,25 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="img-cont">
                             <img src="./img/cabin.png" class="rounded-3" alt="">
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="img-cont"><img src="./img/cake.png" class="rounded-3" alt=""></div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="img-cont"><img src="./img/circus.png" class="rounded-3" alt=""></div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="img-cont"><img src="./img/game.png" class="rounded-3" alt=""></div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="img-cont"><img src="./img/safe.png" class="rounded-3" alt=""></div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="img-cont"><img src="./img/submarine.png" class="rounded-3" alt=""></div>
                     </div>
 
@@ -160,7 +155,7 @@
                             saepe laborum earum quia voluptatem in, cum tempore quis enim obcaecati! Obcaecati maxime
                             sequi reiciendis, culpa quisquam placeat cupiditate eum rerum eius neque quam accusamus
                             exercitationem.</p>
-                        
+
                     </div>
                     <div class="col-8 col-md-4">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis provident eveniet aliquam
@@ -231,54 +226,38 @@
             </div>
         </section>
         <footer>
-            <div class="footer-top">
-                <div class="container-fluid container-md container-lg">
-                    <div class="row py-3 justify-content-center">
-                        <div class="col-2">
-                            <h3>LOCATION</h3>
-                        </div>
-                        <div class="col-12">
-                            <div class="row_center">
-                                <p>2215 John Daniel Drive Clark, MO 54243</p>
+            <div class="bkg-color-primary">
+                <div class="container-sm">
+
+                    <div class="footer-top">
+                        <div class="row text-center">
+                            <div class="col-12 col-md-4 py-3">
+                                <h3>LOCATION</h3>
+                                <p>2215 John Daniel Drive Clarck, MO 54243</p>
                             </div>
-    
-                        </div>
-                    </div>
-    
-    
-                    <div class="row py-5 justify-content-center">
-                        <div class="col-6">
-                            <h3>AROUND THE WEB</h3>
-                            <div class="row justify-content-center">
-                                <div class="col-2">
-                                    <div><button class="btn btn-outline-light rounded-circle"><i
-                                                class="fa-brands fa-facebook"></i></button></div>
-                                </div>
-                                <div class="col-2">
-                                    <div><button class="btn btn-outline-light rounded-circle"><i
-                                                class="fa-brands fa-google-plus-g"></i></button></div>
-                                </div>
-                                <div class="col-2">
-                                    <div><button class="btn btn-outline-light rounded-circle"><i
-                                                class="fa-brands fa-twitter"></i></button></div>
-                                </div>
-                                <div class="col-2">
-                                    <div><button class="btn btn-outline-light rounded-circle"><i
-                                                class="fa-brands fa-linkedin"></i></button></div>
+                            <div class="col-12 col-md-4 py-3">
+                                <h3>AROUND THE WEB</h3>
+                                <div class="row justify-content-center">
+                                    <div class="col-1 col-md-2">
+                                        <div><button class="btn btn-outline-light rounded-circle"><i
+                                                    class="fa-brands fa-facebook"></i></button></div>
+                                    </div>
+                                    <div class="col-1 col-md-2">
+                                        <div><button class="btn btn-outline-light rounded-circle"><i
+                                                    class="fa-brands fa-google-plus-g"></i></button></div>
+                                    </div>
+                                    <div class="col-1 col-md-2">
+                                        <div><button class="btn btn-outline-light rounded-circle"><i
+                                                    class="fa-brands fa-twitter"></i></button></div>
+                                    </div>
+                                    <div class="col-1 col-md-2">
+                                        <div><button class="btn btn-outline-light rounded-circle"><i
+                                                    class="fa-brands fa-linkedin"></i></button></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-    
-    
-    
-                    <div class="row py-5 justify-content-center">
-                        <div class="col-6">
-                            <h3>ABOUT FREELANCER</h3>
-    
-                        </div>
-                        <div class="col-10">
-                            <div class="row_center">
+                            <div class="col-12 col-md-4 py-3">
+                                <h3>ABOUT FREELANCER</h3>
                                 <p>Freelance is a free to use, open source Bootstrap
                                     theme created by <a href="#">Start Bootstrap</a>
                                 </p>
@@ -288,17 +267,24 @@
                 </div>
 
             </div>
-            <div class="footer-bottom">
-                <div class="row">
-                    <div class="col-6 offset-3">
-                        <div class="row_center">
-                            <p>Copyright <span><i class="fa-solid fa-copyright"></i></span> your website 2019</p>
-                        </div>
+            <div class="bkg-color-secondary">
+                <div class="container-sm">
+                    <div class="footer-bottom">
+                        <div class="row">
+                            <div class="col-6 offset-3">
+                                <div class="row_center">
+                                    <p>Copyright <span><i class="fa-solid fa-copyright"></i></span> your website 2019
+                                    </p>
+                                </div>
 
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </footer>
+
     </main>
 </body>
 
